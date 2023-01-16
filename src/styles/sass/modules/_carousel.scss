@@ -1,0 +1,18 @@
+/* Slider */
+.carousel{
+    width: 100%;
+    
+    &-control{
+        width: 100%;
+    }
+    &-inner{
+        max-height: 35rem !important;
+    }    
+}
+
+@media(max-width:768){
+    .carousel-inner{
+        max-height: 18rem !important;
+    }
+}
+
